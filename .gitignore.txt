@@ -1,0 +1,59 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# === FastAPI config ===
+*.db
+instance/
+*.env
+.env.*
+!.env.example
+
+# === Node / React / Vite ===
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# === Frontend ===
+frontend/.next/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/coverage/
+frontend/public/assets/
+frontend/vite.svg
+
+# === Docker ===
+docker/.env
+docker/*.pid
+docker/nginx.conf
+
+# === OS & Editor ===
+.DS_Store
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+
+# === Output / Generated ===
+uploaded_files/
+generated_pdfs/
+tests/sample_insurance_card.png
+scripts/__pycache__/
+coverage/

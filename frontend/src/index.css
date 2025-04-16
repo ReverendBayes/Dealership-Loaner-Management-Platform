@@ -1,0 +1,33 @@
+/* index.css */
+/* Tailwind base setup + Axle-style global refinements */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7f9fc;
+  font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  @apply antialiased leading-relaxed;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+h1, h2, h3, h4 {
+  @apply text-gray-800 tracking-tight;
+}
+
+p, label {
+  @apply text-gray-600;
+}
+
+button {
+  @apply focus:outline-none transition font-medium rounded;
+}
+
+input, select, textarea {
+  @apply border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm;
+}
