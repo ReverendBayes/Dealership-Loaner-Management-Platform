@@ -192,4 +192,4 @@ python scripts/test_ocr_flow.py
 
 ---
 
-MIT License · Built with precision.
+MIT License · 
