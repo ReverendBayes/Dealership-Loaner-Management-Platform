@@ -5,7 +5,7 @@ Digitizes insurance verification, check-in workflows, vehicle inspections, digit
 
 ---
 
-## 💡 Why This Matters
+## Why This Matters
 
 Dealerships waste **thousands of dollars per month** verifying insurance manually:
 
@@ -23,7 +23,7 @@ This platform eliminates all of that:
 
 ---
 
-## 🧩 Stack & Dependencies
+## Stack & Dependencies
 
 **Frontend**
 - React + TypeScript
@@ -120,7 +120,7 @@ dealership_loaner_platform/
 
 ---
 
-## ⚙️ Setup (Local)
+## Setup (Local)
 
 ```bash
 # 1. Clone the repo
@@ -160,7 +160,7 @@ Access:
 
 ---
 
-## 🔍 Scripts & Testing
+## Scripts & Testing
 
 ```bash
 # Seed demo vehicles
@@ -172,7 +172,7 @@ python scripts/test_ocr_flow.py
 
 ---
 
-## 🧠 Dev Notes
+## Dev Notes
 
 - Sample insurance cards for OCR testing live in `/tests/sample_insurance_card.png`
 - Generated rental agreements are saved to `/generated_pdfs`
@@ -181,7 +181,7 @@ python scripts/test_ocr_flow.py
 
 ---
 
-## 📅 Future Roadmap
+## Future Roadmap
 
 - Fleet geofencing
 - Optional insurance login fallback (e.g., MeasureOne) if OCR fails
@@ -192,4 +192,4 @@ python scripts/test_ocr_flow.py
 
 ---
 
-MIT License · 
+MIT License 
