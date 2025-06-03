@@ -43,7 +43,7 @@ This platform eliminates all of that:
 
 ---
 
-## 🗂 Folder Map
+## Folder Map
 
 ```markdown
 dealership_loaner_platform/
