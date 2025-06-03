@@ -1,5 +1,5 @@
 # Dealership Loaner Management Platform
-> ⚠️ This project is actively in development. Production features like authentication, full test coverage, and UX polish are still in progress.
+> ⚠️ This project is actively in development. Production features like authentication, expanded test coverage, and UX polish are still in progress.
 
 A full-stack, paperless loaner car management system for auto dealerships. 
 Digitizes insurance verification, check-in workflows, vehicle inspections, digital agreements, and fleet tracking — with zero paid APIs or vendor lock-in.
@@ -185,9 +185,10 @@ python scripts/test_ocr_flow.py
 ## Future Roadmap
 
 - Fleet geofencing
-- Optional insurance login fallback (e.g., MeasureOne) if OCR fails
-  → Cheaper than Axle, better fallback coverage
-  → Not required for primary workflow
+- Optional insurance login fallback (e.g., MeasureOne) if OCR fails  
+  &nbsp;&nbsp;&rarr; Cheaper than Axle, better fallback coverage  
+  &nbsp;&nbsp;&rarr; Not required for primary workflow  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rarr; Loaner agents calling insurance to verify coverage costs ~$2 in labor per call (on par with Axle)
 - Repair order sync with Xtime
 - Subsidy tracking (BMW, etc.)
 
