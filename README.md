@@ -1,5 +1,5 @@
 # Dealership Loaner Management Platform
-> ⚠️ This project is actively in development.
+> ⚠️ This project is actively in development. Production features like authentication, full test coverage, and UX polish are still in progress.
 
 A full-stack, paperless loaner car management system for auto dealerships. 
 Digitizes insurance verification, check-in workflows, vehicle inspections, digital agreements, and fleet tracking — with zero paid APIs or vendor lock-in.
